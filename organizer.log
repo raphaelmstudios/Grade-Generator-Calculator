@@ -1,0 +1,23 @@
+========================================
+[2025-11-12 01:43:37] Archiving: grades.csv
+New filename: grades-20251112-014337.csv
+----------------------------------------
+File Contents:
+Assignment,Category,Grade,Weight
+Group Coding Lab,FA,100.0,30.0
+Discussion Forum,FA,45.0,15.0
+General Quiz,FA,49.0,15.0
+Pre-Summative,SA,55.0,15.0
+INDIVIDUAL lAB,SA,90.0,25.0
+========================================
+
+========================================
+[2025-11-12 08:07:26] Archiving: grades.csv
+New filename: grades-20251112-080726.csv
+----------------------------------------
+File Contents:
+Assignment,Category,Grade,Weight
+Fight Club ,FA,30.0,25.0
+Chicken Ring,SA,90.0,35.0
+========================================
+
