@@ -26,26 +26,33 @@ Organizer (organizer.sh)
 ---
 
 ## __How It Works__
+```
 Weighted Grade = (Grade / 100) × Weight
 Final Grade = Total FA + Total SA
 GPA = (Final Grade / 100) × 5.0
+```
 
 Pass/Fail Logic: Student must score ≥50% in BOTH FA and SA categories.
 
 Example:
+```
 FA: 17.0/20.0 (Need 10.0) 
 SA: 40.0/50.0 (Need 25.0) 
 Status: PASS | GPA: 2.85
+```
 
 ---
 
 ## Archival Process
+```
 grades.csv → [timestamp] → grades-20251112-143025.csv → archive/
                          → [log] → organizer.log
+```
 
 ---
 
 ## __File Structure__
+```
 Lab1-YOUR_USERNAME/
 ├── grade-generator.py    # Python calculator
 ├── organizer.sh          # Bash archival script
@@ -53,24 +60,24 @@ Lab1-YOUR_USERNAME/
 ├── grades.csv            # Generated grade data
 ├── organizer.log         # Archival log
 └── archive/              # Archived CSV files
+```
 
 ---
 
 ## __Troubleshooting__
-Issue   
-Solution
-Permission denied
-chmod +x organizer.sh
-Python not found
-Use python3 instead of python
-No CSV files found
- Run grade-generator.py first
+| Issue | Solution |
+|-------|----------|
+| Permission denied | chmod +x organizer.sh |
+| Python not found | Use python3 instead of python |
+| No CSV files found | Run grade-generator.py first |
 
 ---
 
 ## Author
 Raphael Mumo Musau - African Leadership University
+
 GitHub: raphaelmstudios
+
 Course: Introduction to Python Programming and Databases
 
 ---
