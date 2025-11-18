@@ -25,6 +25,39 @@ Organizer (organizer.sh)
 
 ---
 
+## Operating
+
+### How to run the Grade Generator
+```bash
+python3 grade-generator.py
+```
+Follow the prompts in the console to input assignment details, and it will generate grades.csv where all your data is stored.
+
+### Organizing
+```bash
+bash organizer.sh
+```
+or
+```bash
+./organizer.sh
+```
+This will archive all CSV files in the current directory with timestamps and move them to the archive/ folder.
+
+### Complete Workflow
+```bash
+# Step 1: Generate Grades
+python3 grade-generator.py
+
+# Step 2: Archive the CSV
+bash organizer.sh 
+
+# Step 3: Check out the results
+ls archive/          # View archived files 
+cat organizer.log    # View log
+```
+
+---
+
 ## __How It Works__
 ```
 Weighted Grade = (Grade / 100) × Weight
