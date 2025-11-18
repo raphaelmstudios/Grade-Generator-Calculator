@@ -1,5 +1,5 @@
 # Grade Generator Calculator
-Automation of grade computation, as well as archiving of students' assignment scores as CSV.
+This is a two-part project where I built an interactive Python application that calculates a student's final grade by prompting the user for assignment details, and a Bash script that archives the generated CSV files with timestamps.
 
 ---
 
